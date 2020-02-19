@@ -52,7 +52,7 @@
                                     <constraint firstAttribute="height" constant="40" id="ZA2-GW-Sgn"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <state key="normal" title="Ready!">
+                                <state key="normal" title="Ready">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
