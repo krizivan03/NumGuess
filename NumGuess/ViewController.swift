@@ -27,10 +27,14 @@ class ViewController: UIViewController {
     
     
     @IBAction func readyButtonA(_ sender: Any) {
+        l = 0
+        r = 100
+        x = 50
         self.readyButton.isHidden = true
         self.isNumButtonV.isHidden = false
         self.notNumButtonV.isHidden = false
         self.hmFace.isHidden = false
+        self.Smiley.isHidden = true
         self.textBox.text = "is your number \(x)"
     }
     @IBAction func hButton(_ sender: UIButton) {
@@ -59,6 +63,8 @@ class ViewController: UIViewController {
         self.notNumButtonV.isHidden = true
         self.hmFace.isHidden = true
         self.Smiley.isHidden = false
+        self.readyButton.setTitle("Again?",for: .normal)
+        self.readyButton.isHidden = false
     }
     @IBAction func notNumButtonA(_ sender: Any) {
         self.hButtonV.isHidden = false
